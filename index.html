@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Showcase</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="assets/favicon2.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- for linear gradient overlay-->
+    <div id="overlay"></div>
+
+    <!-- code -->
+    <header>
+      <h1>Assignment <span>S</span>howcase</h1>
+      <h3>React Trainee</h3>
+      <p>Bajra Technologies 2024</p>
+      <!-- <p><span class="suyan-s">S</span>uyan <span class="shrestha-s">S</span>hrestha</p> -->
+      <p>Suyan Shrestha</p>
+    </header>
+
+    <main>
+      <!-- assignment-1 -->
+      <section class="full-card">
+        <div class="assignment-card">
+          <h2>Assignment 1</h2>
+          <p class="project-title">Address Book</p>
+          <div class="card-right">
+            <a href="">Link</a>
+            <i
+              class="fa-solid fa-circle-chevron-down arrow-icon"
+              onclick="showDetails(true)"
+            ></i>
+          </div>
+        </div>
+
+        <!-- hidden details screen -->
+        <dialog class="details animate-dialog">
+          <div class="wrapper">
+            <h1>Details</h1>
+            <p>Here is an address book created using shell scripting.</p>
+            <div class="links-div">
+              <a href="#"
+                ><i class="fa-brands fa-github" style="color: #b197fc"></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-video live-div"
+                  style="color: #b197fc"
+                ></i
+              ></a>
+            </div>
+            <img src="assets/assignment1.png" alt="" width="200" height="150" />
+          </div>
+        </dialog>
+      </section>
+
+      <!-- assignment-2 -->
+      <section class="full-card">
+        <div class="assignment-card">
+          <h2>Assignment 2</h2>
+          <p class="project-title">Project Showcase Static Page</p>
+          <div class="card-right">
+            <a href="">Link</a>
+            <i
+              class="fa-solid fa-circle-chevron-down arrow-icon"
+              onclick="toggleDetails(this)"
+            ></i>
+          </div>
+        </div>
+
+        <!-- hidden details screen -->
+        <dialog class="details animate-dialog">
+          <div class="wrapper">
+            <h1>Details</h1>
+            <p>
+              Here is an assignment showcase page I made using HTML, CSS and a
+              bit of JS for button click functionality.
+            </p>
+            <div class="links-div">
+              <a href="#"
+                ><i class="fa-brands fa-github" style="color: #b197fc"></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-video live-div"
+                  style="color: #b197fc"
+                ></i
+              ></a>
+            </div>
+            <img src="assets/assignment2.png" alt="" width="200" height="150" />
+          </div>
+        </dialog>
+      </section>
+
+      <!-- assignment-3 -->
+      <section class="full-card">
+        <div class="assignment-card">
+          <h2>Assignment 3</h2>
+          <p class="project-title">Project Lorem Knight</p>
+          <div class="card-right">
+            <a href="">Link</a>
+            <i
+              class="fa-solid fa-circle-chevron-down arrow-icon"
+              onclick="toggleDetails(this)"
+            ></i>
+          </div>
+        </div>
+
+        <!-- hidden details screen -->
+        <dialog class="details animate-dialog">
+          <div class="wrapper">
+            <h1>Details</h1>
+            <p>
+              Okay this card doesnt even make sense. But yeah, you can still
+              check the code and live version.
+            </p>
+            <div class="links-div">
+              <a href="#"
+                ><i class="fa-brands fa-github" style="color: #b197fc"></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-video live-div"
+                  style="color: #b197fc"
+                ></i
+              ></a>
+            </div>
+            <img src="assets/background.png" alt="" width="200" height="150" />
+          </div>
+        </dialog>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
